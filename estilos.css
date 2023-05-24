@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('./imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topo-rodape{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.topo-rodape h1{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.topo-rodape p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.final{
+    margin-bottom: 0;
+}
+
+.conteudo{
+    background-color: white;
+    width: 50%;
+    padding: 8px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.conteudo .subtitulo{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.conteudo .paragrafo{
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.texto{
+    height: 455px;
+    overflow-y: scroll;
+}
+
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+}
+    
+img{
+    width: calc((100% /3) - 3px);
+    margin: 0 1.5px;
+}  
+
+.fotos .subtitulo{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
